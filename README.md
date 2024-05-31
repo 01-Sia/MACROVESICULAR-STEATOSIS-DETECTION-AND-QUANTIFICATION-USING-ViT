@@ -13,5 +13,6 @@
 - The scope of the proposed project encompasses the development and validation of a novel computational framework for the assessment of macrovesicular steatosis in human liver tissue using Vision Transformers (ViTs). This framework will involve pre-processing histological images, extracting relevant features, training ViT models, and evaluating their performance in detecting and quantifying steatosis accurately.
 The application of this project spans various domains within hepatology and medical imaging. Firstly, the developed computational tool has the potential to aid pathologists and clinicians in diagnosing liver steatosis more accurately and efficiently. By providing quantitative measures of steatosis severity, the tool can enhance clinical decision-making, treatment planning, and patient monitoring in conditions such as NAFLD and NASH.
 
+## Neural Network Architecture
+- ![image](https://github.com/01-Sia/MACROVESICULAR-STEATOSIS-DETETCTION-AND-QUANTIFICATION-/assets/117347998/3b4c5841-620b-4586-8376-993a36841e15)
 
-   
