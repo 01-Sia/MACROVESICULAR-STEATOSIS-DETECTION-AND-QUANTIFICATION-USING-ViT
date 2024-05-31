@@ -2,8 +2,8 @@
 ## Table of Contents:
 - [Introduction](#Introduction)
 - [Applications](#applications)
-- [Neural Network Architecture](#Neural Network Architecture)
-- [The Model](#the model)
+- [Neural Network Architecture](#Neural-Network-Architecture)
+- [The Model](#the-model)
 - [Results](#results)
 
 ## Introduction
