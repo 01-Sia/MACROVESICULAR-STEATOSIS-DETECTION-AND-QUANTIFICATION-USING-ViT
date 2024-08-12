@@ -21,18 +21,18 @@ The application of this project spans various domains within hepatology and medi
 
 -The vision transformer model was trained on a dataset of annotated histological images, focusing on identifying regions of interest (ROIs) corresponding to macrovesicular steatosis. The training process involved optimizing the model's parameters using a combination of labeled data and a suitable loss function, such as binary cross-entropy or focal loss.
 
-### A. DATASET 
+#### A. DATASET 
 
 - We utilized a large dataset comprising hematoxylin and eosin (H&E) stained liver biopsies for our study. The dataset consisted of histological images obtained from patients with varying degrees of macrovesicular steatosis, as well as samples with other liver pathologies for comprehensive analysis.
 The H&E staining provided high contrast images, allowing for the clear visualization of hepatocytes and lipid droplets characteristic of steatosis. The dataset included a diverse range of liver histology samples, ensuring robustness and generalizability of our findings.
 The use of this extensive dataset enabled us to train and validate our vision transformer model and Python library for the detection and measurement of macrovesicular steatosis with a high degree of accuracy and reliability.
 
-### B. DATA PREPROCESSING  
+#### B. DATA PREPROCESSING  
 
 - We employed KMeans clustering as a preprocessing step to remove unnecessary and faulty images from the dataset. KMeans clustering is a popular unsupervised machine learning algorithm used for clustering data points into a specified number of clusters. By applying KMeans clustering to our dataset, we were able to identify and remove images that did not belong to the main clusters, which helped improve the overall quality of the dataset. We extracted features from each image in the dataset using a pre-trained convolutional neural network (CNN). These features represented the unique characteristics of each image.
 - We visualized the clusters using a scatter plot, where each point represented an image and its position in the plot was determined by its feature vector. This allowed us to visually inspect the clustering results and identify any outliers or clusters that contained faulty images.
 
-### C. METHOD 
+#### C. METHOD 
 
 ###### Detection using Vision Transformers
  We employed vision transformers, a state-of-the-art deep learning architecture, for the detection of macrovesicular 
