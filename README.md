@@ -19,7 +19,7 @@ The application of this project spans various domains within hepatology and medi
 ## Model 
 - We employed vision transformers, a state-of-the-art deep learning architecture, for the detection of macrovesicular steatosis in H&E stained histological images of human liver. Vision transformers are known for their ability to capture long-range dependencies in images, making them well-suited for analyzing complex structures such as those found in liver histology.
 
--The vision transformer model was trained on a dataset of annotated histological images, focusing on identifying regions of interest (ROIs) corresponding to macrovesicular steatosis. The training process involved optimizing the model's parameters using a combination of labeled data and a suitable loss function, such as binary cross-entropy or focal loss.
+- The vision transformer model was trained on a dataset of annotated histological images, focusing on identifying regions of interest (ROIs) corresponding to macrovesicular steatosis. The training process involved optimizing the model's parameters using a combination of labeled data and a suitable loss function, such as binary cross-entropy or focal loss.
 
 #### A. DATASET 
 
